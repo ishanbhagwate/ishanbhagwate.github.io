@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build / tooling artifacts
+dist/
+.cache/
+.parcel-cache/
+.next/
+
+# Tailwind (unused build tooling — site is single-file vanilla)
+tailwind.config.js
+
+# Unused scaffolding
+components/
+lib/
+
+# OS
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+
+# Claude Code internals
+.claude/
+CLAUDE.md
